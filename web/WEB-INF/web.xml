@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.gai.HelloServlet</servlet-class>
+        <servlet-class>com.gai.servlet.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>

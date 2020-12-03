@@ -1,4 +1,4 @@
-package com.gai;
+package com.gai.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
