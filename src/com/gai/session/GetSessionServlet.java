@@ -15,7 +15,7 @@ public class GetSessionServlet extends HttpServlet {
         HttpSession session = req.getSession(false);
         if(session != null){
             String name = (String) session.getAttribute("name");
-            resp.getWriter().write(name);
+            resp.getWriter().write(name==null ? "null" : name);
         }else {
             resp.getWriter().write("session为 null !!!");
         }
